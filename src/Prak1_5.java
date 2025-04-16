@@ -12,6 +12,8 @@ public class Prak1_5 {
     }
 
     public static void main(String[] Args) {
-
+        Prak1_5 balok = new Prak1_5();
+        balok.inputData(2, 2, 2);
+        System.out.println("Volume balok = " + balok.calculate());
     }
 }
